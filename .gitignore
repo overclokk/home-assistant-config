@@ -3,3 +3,4 @@
 
 # Allow the following
 !.gitignore
+!docs.md

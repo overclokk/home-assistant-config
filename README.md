@@ -39,3 +39,18 @@ If you create also a `config` folder and want to share also the file `compose.ym
 > ls -s config/compose.yaml compose.yaml
 ```
 
+## Secret.yaml
+
+Move `secrets.yaml` to a different folder, in my case up to one level
+
+```bash
+# ~/homeassistant/config$
+mv secrets.yaml ../secrets.yaml
+```
+
+Than add a symlink to this file
+
+```bash
+# ~/homeassistant/config$
+ln -s ../secrets.yaml secrets.yaml
+```
