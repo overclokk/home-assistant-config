@@ -54,3 +54,7 @@ Than add a symlink to this file
 # ~/homeassistant/config$
 ln -s ../secrets.yaml secrets.yaml
 ```
+
+Why this position for the secret.yaml file?
+Now, this is optional, you do not need this if you already have the file secrets.yaml excluded in `.gitignore` but to have a more level of security I moved this file to another folder and create a symlink https://www.home-assistant.io/docs/configuration/secrets/
+
